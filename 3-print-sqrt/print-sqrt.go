@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	fmt.Printf("I am the sqrt of 8 which is equal to %g", math.Sqrt(8))
+	fmt.Printf("I am the sqrt of 8 which is equal to %g\n", math.Sqrt(8))
 }
