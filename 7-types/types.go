@@ -10,4 +10,5 @@ func main() {
 	z := 'c'
 	fmt.Printf("The type of i is %T:\n", i)
 	fmt.Printf("The type of j is %T:\n", j)
+	fmt.Printf("The type of x is %T:\n", x)
 }
