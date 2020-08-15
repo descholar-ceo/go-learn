@@ -8,5 +8,5 @@ func main() {
 	x := 12.3
 	y := "Some people are just funny!"
 	z := 'c'
-	fmt.Printf("The type of i is %T:", i)
+	fmt.Printf("The type of i is %T:\n", i)
 }
