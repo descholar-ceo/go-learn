@@ -9,4 +9,5 @@ func main() {
 	y := "Some people are just funny!"
 	z := 'c'
 	fmt.Printf("The type of i is %T:\n", i)
+	fmt.Printf("The type of j is %T:\n", j)
 }
