@@ -14,4 +14,5 @@ func main() {
 		return math.Sqrt(x*x + y*y)
 	}
 	fmt.Println(hypo(5, 12))
+	fmt.Println(compute(hypo))
 }
