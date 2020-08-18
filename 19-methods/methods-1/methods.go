@@ -12,5 +12,6 @@ func (p person) talk() {
 }
 
 func main() {
-
+	me := person{"descholar", 30}
+	me.talk()
 }
