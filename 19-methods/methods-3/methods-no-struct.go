@@ -13,5 +13,5 @@ func (m mFloat) divideWith(divider int) mFloat {
 
 func main() {
 	num := mFloat(math.Pi)
-	fmt.Printf("The result is : %f", num.divideWith(4))
+	fmt.Printf("The result is : %f\n", num.divideWith(4))
 }
