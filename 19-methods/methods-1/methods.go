@@ -8,7 +8,7 @@ type person struct {
 }
 
 func (p person) talk() {
-	fmt.Printf("Hello %s I noticed that are %d Y.O", p.names, p.age)
+	fmt.Printf("Hello %s I noticed that are %d Y.O\n", p.names, p.age)
 }
 
 func main() {
