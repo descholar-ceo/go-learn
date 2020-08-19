@@ -1,0 +1,1 @@
+// evercise on https://tour.golang.org/methods/18
