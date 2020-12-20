@@ -12,4 +12,4 @@ Course 1, named `1-go-tour` is found from https://tour.golang.org/
         fmt.Println("Hello descholar! Welcome back to the GoLand")
     }
 ```
-Course 2, named `2-web-dev` is found on udemy
+Course 2, named `2-web-dev` is found on Udemy
