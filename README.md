@@ -1,5 +1,7 @@
 # go-tour
-This repo contains all my newbie programs written in GoLang, I found them from https://tour.golang.org/
+This repo contains all my newbie programs written in GoLang,
+
+Course 1, named `1-go-tour` is found from https://tour.golang.org/
 
 ```go
     package main
@@ -10,3 +12,4 @@ This repo contains all my newbie programs written in GoLang, I found them from h
         fmt.Println("Hello descholar! Welcome back to the GoLand")
     }
 ```
+Course 2, named `2-web-dev` is found on udemy
