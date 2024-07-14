@@ -13,5 +13,9 @@ func power1next(x, y, z float64) float64 {
 }
 
 func main() {
-	fmt.Println(power1next(2, 2, 3))
+	fmt.Println(
+		power1next(2, 2, 3),
+		power1next(3, 2, 10),
+		power1next(3, 3, 20),
+	)
 }

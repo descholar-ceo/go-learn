@@ -1,15 +1,25 @@
-# go-tour
-This repo contains all my newbie programs written in GoLang,
+<p align="center"><img src="https://raw.githubusercontent.com/gobuffalo/buffalo/main/logo.svg" width="360"></p>
 
-Course 1, named `1-go-tour` is found from https://tour.golang.org/
+<p align="center">
+<a href="https://pkg.go.dev/github.com/gobuffalo/cli"><img src="https://pkg.go.dev/badge/github.com/gobuffalo/cli" alt="PkgGoDev"></a>
+<a href="https://github.com/gobuffalo/cli/actions/workflows/standard-go-test.yml"><img src="https://github.com/gobuffalo/cli/actions/workflows/standard-go-test.yml/badge.svg" alt="Standard Test" /></a>
+<a href="https://goreportcard.com/report/github.com/gobuffalo/cli"><img src="https://goreportcard.com/badge/github.com/gobuffalo/cli" alt="Go Report Card" /></a>
+</p>
 
-```go
-    package main
+# Buffalo CLI
 
-    import "fmt"
+This is the repo for the Buffalo CLI. The Buffalo CLI is a tool to develop, test and deploy your Buffalo applications.
 
-    func main(){
-        fmt.Println("Hello descholar! Welcome back to the GoLand")
-    }
+## Installation
+
+To install the Buffalo CLI you can run the following command:
+
+```bash
+go install github.com/gobuffalo/cli/cmd/buffalo@latest
 ```
-Course 2, named `2-web-dev` is found on Udemy
+
+<!-- Installing the Buffalo CLI requires Go 1.16 or newer as it depends heavily on the embed package. Once you have ensured you installed Go 1.16 or newer,  -->
+
+## Usage
+
+Once installed, the Buffalo CLI can be used by invoking the `buffalo` command. To know more about the available commands, run the `buffalo help` command. or you can also get details on a specific command by running `buffalo help <command>`.
